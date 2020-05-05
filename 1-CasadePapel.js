@@ -15,10 +15,9 @@ for (var i = 0; i < atracadores.length; i++) {
 if (nombre !== atracadores[i]) { alert("La capital " + nombre + ", no corresponde al nombre de ningún miembro de la casa de papel ");}
 
 
-// --------------------------------------------------------------------------------------------------------
 // CON FUNCIONES:
 
-/* var nombre = "";
+var nombre = "";
 var atracadores = ["TOKIO", "NAIROBI", "BERLÍN", "RÍO", "DENVER", "OSLO", "HELSINKI", "MOSCÚ"];
 
 ask();
@@ -36,14 +35,14 @@ function check (name) {
 }
         if (nombre !== name[i]){ alert("La capital " + nombre + ", no corresponde al nombre de ningún miembro de la casa de papel ");
     }
-} */
+} 
 
-// OPCIÓN LARGA:
-/* 
+// OPCIÓN LARGA y ABURRIDA:
+ 
 var nombre = "";
 function atracador(miembro) { alert("Alerta, " + miembro + " es un miembro de la banda de: La Casica de Papel.");} //Texto a mostrar en caso de detectar al atracador;
 
-while (isNaN(nombre) === false) { // Comprobar dato introducido;
+while (isNaN(nombre) === false) { 
     nombre = prompt("Dime la capital que tienes en mente");
     nombre = nombre.toUpperCase();
 }
@@ -88,5 +87,3 @@ switch (nombre) {
         alert("La capital " + nombre + ", no corresponde al nombre de ningún miembro de la casa de papel ")
         break;
 }
-
- */
